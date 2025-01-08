@@ -246,5 +246,10 @@ hr{
 }
 .contact .container{
   align-items: flex-start;
-
+}
+footer  p{
+  color: #e7e2e2;
+  background-color: #475F45;
+  padding: 20px;
+  text-align: center;
 }
