@@ -144,7 +144,7 @@ font-size: 52px;
  .hero{
   margin-top: 60px;
  }
- .about{
+ .about,.contact{
   background-color: #343D33;
   padding: 60px;
   margin-top: 60px;
@@ -224,4 +224,27 @@ hr{
 .services .container{
   align-items: flex-start;
   margin-top: 60px;
+}
+.contact .container .logo a,.contact .container .logo p{
+  color: #fff;
+}
+.content p{
+  color: #e7e2e2;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+.links a{
+  color: #e7e2e2;
+  display: block;
+  line-height: 1.5;
+}
+.links p,.icons p{
+  color: #e7e2e2;
+}
+.icons img{
+  margin-top: 20px;
+}
+.contact .container{
+  align-items: flex-start;
+
 }
