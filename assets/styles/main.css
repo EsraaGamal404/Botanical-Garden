@@ -1,0 +1,144 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  padding: 0 15px;
+  margin: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+a{
+  text-decoration: none;
+}
+header nav input{
+  appearance: none;
+}
+@media (max-width:991px){
+  header nav{
+    position: relative;
+  }
+    header nav input:checked + ul{
+      display: block;
+    }
+    header nav ul{
+      display: none;
+      position: absolute;
+      top:50px;
+      right: 0;
+      min-width: 250px;
+      border: 1px solid rgb(0 0 0 /0.1);
+      background-color: #fff;
+    }
+    header nav ul li:not(:last-child){
+      border-bottom: 1px solid rgb(0 0 0 /0.1);
+    }
+    header nav ul li a{
+      display: block;
+      padding: 10px;
+      color: var(--black);
+    }
+    }
+  @media (min-width:992px){
+    header nav label,
+    header nav .checkbox{
+  display: none;
+    }
+    header nav ul{
+      display: flex;
+    }
+    header nav ul li{
+      padding: 0 20px;
+    }
+}
+  .menu{
+    color:#475F45;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  header{
+    position: sticky;
+    width:100%;
+    top: 5px;
+    padding: 20px 0;
+    z-index: 1;
+  }
+  .d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  img {
+    max-width: 100%;
+  }
+  ul {
+    list-style: none;
+  }
+ .logo{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+ }
+ .logo a{
+  font-size: 22px;
+  font-weight: bold;
+  color: #343D33;
+ }
+ .logo p{
+  color: #333333;
+  font-size: 16px;
+ }
+ nav ul li a{
+  color: #475F45;
+ }
+ .btn2{
+  color: #475F45;
+  border: #475F45 1px solid;
+  padding: 10px 30px;
+  background-color: transparent;
+ }
+ .image img{
+  width: 300px;
+ }
+ .hero .container .info h1{
+color: #343D33;
+font-size: 52px;
+ }
+ .hero .container .info p{
+  color: #333333;
+  font-size: 18px;
+  margin-top: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+ }
+ .btn1{
+  color: #fff;
+  background-color: #343D33;
+  padding: 10px 30px;
+  border-radius: 4px;
+  border: 1px solid #343D33;
+ }
+ .btn{
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+ }
+ .hero{
+  margin-top: 60px;
+ }
